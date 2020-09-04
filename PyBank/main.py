@@ -47,4 +47,5 @@ with open(path, "r") as in_file, open(OUT_PATH, "w+") as out_file:
     f"Greatest Increase in Profits:   {great_incr_date} (${great_incr}) \n"\
     f"Greatest Decrease in Profits:   {great_decr_date} (${great_decr})\n"\
 
+    print(output_txt)
     out_file.write(output_txt)
