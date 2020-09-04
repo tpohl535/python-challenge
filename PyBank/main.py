@@ -17,7 +17,7 @@ with open(path, "r") as in_file, open(OUT_PATH, "w+") as out_file:
     great_decr = 0
     great_incr_date = 0
     great_decr_date = 0
-   
+
     for i in range(1, len(reader_data)):
 
         last_period_row = reader_data[i - 1]
@@ -49,3 +49,5 @@ with open(path, "r") as in_file, open(OUT_PATH, "w+") as out_file:
 
     print(output_txt)
     out_file.write(output_txt)
+    
+    
